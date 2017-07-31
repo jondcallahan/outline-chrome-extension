@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Outline this page",
+  "description": "Open the current page in outline.com",
+  "version": "1.0",
+  "icons": {
+    "16": "outline.16.png",
+    "48": "outline.48.png",
+    "96": "outline.96.png",
+    "192": "outline.192.png"
+  },
+
+  "background": { "scripts": ["index.js"] },
+  "permissions": [ "contextMenus", "tabs", "http://*/*", "https://*/*" ]
+}
